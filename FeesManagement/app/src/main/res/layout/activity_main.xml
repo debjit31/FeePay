@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#72BBBE"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp">
+
+        <!--Add Students Card-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/add_students"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/add_students_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/add" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/add_students_image"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:padding="6dp"
+                        android:text="  ADD STUDENTS"
+                        android:textAlignment="center"
+                        android:textColor="#414040"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <!--Delete Students-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/delete_students"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/delete_students_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/delete" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/delete_students_image"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:padding="6dp"
+                        android:text="DELETE STUDENTS"
+                        android:textAlignment="center"
+                        android:textColor="#414040"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <!--Accept fees-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/accept_fees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/accept_fees_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pay_fees_edited" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/accept_fees_image"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:padding="6dp"
+                        android:text="ACCEPT FEES"
+                        android:textAlignment="center"
+                        android:textColor="#414040"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <!--Show records-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/show_records"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/show_records_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/records" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/show_records_image"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:padding="6dp"
+                        android:text="SHOW RECORDS"
+                        android:textAlignment="center"
+                        android:textColor="#414040"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
